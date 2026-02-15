@@ -21,8 +21,8 @@ for SAMPLE in "${SAMPLES[@]}"; do
   salmon quant \
     -i "$INDEX" \
     -l A \
-    -1 "${SAMPLE}_1.paired.trimmed.fastq" \
-    -2 "${SAMPLE}_2.paired.trimmed.fastq" \
+    -1 "${SAMPLE}_1.paired.trimmed.fastq.gz" \
+    -2 "${SAMPLE}_2.paired.trimmed.fastq.gz" \
     --validateMappings \
     --threads 4 \
     -o "${OUTDIR}/${SAMPLE}"
