@@ -14,6 +14,7 @@ SAMPLES=(
   SRR1630717 SRR1630718 SRR1630719 SRR1630720
 )
 
+# Loop through samples and perform quantification
 for SAMPLE in "${SAMPLES[@]}"; do
   echo "Running Salmon for ${SAMPLE}..."
 
