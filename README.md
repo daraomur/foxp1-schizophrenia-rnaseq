@@ -77,9 +77,9 @@ SRA → FASTQ → QC → Trimming → Salmon quantification → DESeq2 → ORA �
 
 ## Differential Expression Results
 
-- **30,949 genes analysed**
-- **2,255 genes significant at FDR < 0.05**
-- **305 genes significant at FDR < 0.001**
+- 30,949 genes analysed
+- 2,255 genes significant at FDR < 0.05
+- 305 genes significant at FDR < 0.001
 
 The 305 most significant genes were prioritised for downstream functional enrichment and GWAS integration.
 
@@ -103,22 +103,23 @@ SynGO analysis supported synaptic localisation and signalling-related functional
 - No significant global gene-set enrichment observed (p = 0.37)  
 - However, individual candidate genes were identified:
 
-  - **ITIH3**
-  - **ITPR3**
-  - **EFNA5**
-  - **ZSWIM6**
+  - _ITIH3_
+  - _ITPR3_
+  - _EFNA5_
+  - _ZSWIM6_
 
 ---
 
 ## Candidate Variant Highlight
 
-- Missense variant **rs3617** in **ITIH3**
+- Missense variant rs3617 in _ITIH3_
 - Annotated using VEP, HaploReg, GTEx, and RegulomeDB
 - Identified as a potential functional regulatory candidate
+- Previously associated with increased risk of schizophrenia (Li, 2020)
 
 ---
 
-## Repository Structure
+## Repo Structure
 
 ```
 scripts/
@@ -144,7 +145,7 @@ results/
 
 ---
 
-## Author
+## Author Details
 
 **Dara Ó Murchú**  
 BSc Genetics and Genomics  
